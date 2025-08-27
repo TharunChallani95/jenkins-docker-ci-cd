@@ -1,0 +1,18 @@
+{
+  "name": "jenkins-docker-ci-cd-demo",
+  "version": "1.0.0",
+  "description": "Jenkins Docker CI/CD demo project with Playwright tests",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "test": "npx playwright test"
+  },
+  "author": "TharunChallani95",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
